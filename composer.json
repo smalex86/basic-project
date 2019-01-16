@@ -1,0 +1,23 @@
+{
+    "name": "smalex86/basic-project",
+    "homepage": "https://github.com/smalex86/basic-project",
+    "description": "Basic PHP-project for my new projects",
+    "keywords": [
+        "bootstrap",
+        "php"
+    ],
+    "license": "/LICENCE",
+    "authors": [
+        {
+            "name": "Alexandr Smirnov",
+            "email": "mail_er@mail.ru"
+        }
+    ],
+    "repositories": [ { "type": "vcs", "url": "https://github.com/smalex86/logger" } ], 
+    "require": { "smalex86/logger": "1.7.8" },
+    "autoload": {
+        "psr-4": {
+            "smalex86\\basicProject\\": "src"
+        }
+    }
+}
