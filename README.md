@@ -1,1 +1,1 @@
-basic-project
+Starting template for my PHP projects
